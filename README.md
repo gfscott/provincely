@@ -1,13 +1,20 @@
 Provincely
 ==========
 
-A Canadian version of Stately (http://git.io/x4mvEA)
+A symbol font for making scalable, responsive maps of Canada with HTML and CSS, through the magic of web fonts
 
+
+How to use
+==========
+
+Todo. But it works essentially the same as Stately (http://git.io/x4mvEA). The demo file has a working version you can investigate. It's not that complex.
 
 
 
 Acknowledgements
 ================
+
+Original concept was the American version, "Stately," by Ben Markowitz at Intridea: http://git.io/x4mvEA
 
 Map from Wikipedia author Lokal_Profil, licensed under CC-BY-SA
 http://commons.wikimedia.org/wiki/File:Canada_blank_map.svg
