@@ -1,0 +1,54 @@
+/* Styles to show which party is in power in each province */
+
+.provincely li {
+	color: #666;
+}
+
+.provincely li.on,
+.provincely li.bc,
+.provincely li.pe {
+	color: red;
+}
+
+.provincely li.ab,
+.provincely li.nl,
+.provincely li.nb {
+	color: blue;
+}
+
+.provincely li.ns,
+.provincely li.mb {
+	color: orange;
+}
+
+.provincely li.qc {
+	color: #84b8ef;
+}
+
+
+/* Demo styles */
+
+body {
+	background: #f3f3f3;
+}
+
+.container {
+	margin: 40px auto;
+	width: 300px;
+	font-family: 'Crimson Text', Georgia, serif;
+}
+
+h1 {
+	color: #666;
+	font-weight: normal;
+	font-size: 60px;
+	text-align: center;
+	line-height: 40px;
+}
+
+h2 {
+	font-weight: normal;
+	font-style: italic;
+	text-align: center;
+	color: #88d;
+}

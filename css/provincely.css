@@ -1,0 +1,36 @@
+/*
+Provincely: A symbol font for the Canadian provinces and territories
+Track and contribute: https://github.com/gfscott/provincely
+Copyright (c) 2013 Graham F. Scott
+Licensed under the MIT License: http://opensource.org/licenses/mit-license
+Version: 1.0
+With special thanks to Ben Markowitz and Intridea for the original concept, Stately: http://intridea.github.com/stately/
+*/
+
+@font-face {
+    font-family: 'provincely';
+    src: url('fonts/provincely.eot');
+    src: url('fonts/provincely.eot?#iefix') format('embedded-opentype'),
+         url('fonts/provincely.woff') format('woff'),
+         url('fonts/provincely.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.provincely {
+	font: normal normal 300px/100% "provincely";
+	width: 300px;
+	height: 300px;
+	font-size: 300px;
+	font-size-adjust: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.provincely li {
+	position: absolute;
+}
+
+
