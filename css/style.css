@@ -1,39 +1,9 @@
-/* Styles to show which party is in power in each province */
-
-.provincely {
-	margin: 0 auto;
+body {
+	background: #f3f3f3;
 }
 
 .provincely li {
-	color: #666;
-}
-
-.provincely li.on,
-.provincely li.bc,
-.provincely li.pe {
-	color: #900;
-}
-
-.provincely li.ab,
-.provincely li.nl,
-.provincely li.nb {
-	color: #009;
-}
-
-.provincely li.ns,
-.provincely li.mb {
-	color: orange;
-}
-
-.provincely li.qc {
-	color: #84b8ef;
-}
-
-
-/* Demo styles */
-
-body {
-	background: #f3f3f3;
+	color:#900;
 }
 
 .container {
