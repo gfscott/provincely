@@ -11,13 +11,13 @@
 .provincely li.on,
 .provincely li.bc,
 .provincely li.pe {
-	color: red;
+	color: #900;
 }
 
 .provincely li.ab,
 .provincely li.nl,
 .provincely li.nb {
-	color: blue;
+	color: #009;
 }
 
 .provincely li.ns,
@@ -56,3 +56,20 @@ h2 {
 	text-align: center;
 	color: #88d;
 }
+
+#download a {
+	font-size: 2em;
+	padding: 12px;
+	margin: 12px;
+	text-align: center;
+	background: #88d;
+	text-decoration: none;
+	border-radius: 4px;
+	color: #444;
+}
+
+#download a:hover {
+	background: #900;
+	color: #fff;
+}
+
