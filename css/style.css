@@ -1,5 +1,9 @@
 /* Styles to show which party is in power in each province */
 
+.provincely {
+	margin: 0 auto;
+}
+
 .provincely li {
 	color: #666;
 }
@@ -34,7 +38,7 @@ body {
 
 .container {
 	margin: 40px auto;
-	width: 300px;
+	width: 640px;
 	font-family: 'Crimson Text', Georgia, serif;
 }
 
