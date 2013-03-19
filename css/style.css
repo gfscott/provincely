@@ -2,6 +2,10 @@ body {
 	background: #f3f3f3;
 }
 
+.provincely {
+	margin: 0 auto;
+}
+
 .provincely li {
 	color:#900;
 }
