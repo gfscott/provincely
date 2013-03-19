@@ -69,5 +69,32 @@
 	
 	
 </div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+	
+	$(document).ready(function(){
+		
+		// get array of provinces and count how many there are
+		var provs = $('.provincely li'), 
+				num = provs.length;
+		
+		// function: pick a province at random		
+		var ran = function() {
+			var randomize = Math.round(Math.random() * num);
+			return randomize;
+		}
+		
+		// function: fade a random province to 60% opacity, then return to 100%, every half a second
+		setInterval(function() {	
+			var prov = ran();
+			$(provs[prov]).fadeTo(500, 0.6, function(){
+					$(this).fadeTo(1500, 1);
+			});
+		}, 500);
+	});
+	
+</script>
+
 </body>
 </html>
